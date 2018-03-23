@@ -24,7 +24,7 @@ var description = null;
 
 exports.newPhoto = functions.storage.object().onChange(event => {
 
-  const bucketName = 'gs://not-hotdog-kotlin.appspot.com';
+  const bucketName = [YOUR BUCKET NAME HERE] ex:'gs://HOTDOGAPP.appspot.com';
   const fileName = 'images/maybeHotDog.jpg';
 
   // get file name for image and place in request
